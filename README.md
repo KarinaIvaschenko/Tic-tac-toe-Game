@@ -1,1 +1,1 @@
-(https://tic-tac-toe-game-seven-lyart.vercel.app/)
+https://tic-tac-toe-game-seven-lyart.vercel.app/
