@@ -20,9 +20,15 @@
     font-weight: bold;
     background-color: transparent;
     color: #fff;
+    @media (max-width: 576px) {
+        font-size: 20px;
+    }
 }
 .game__text {
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
+    @media (max-width: 576px) {
+        font-size: 20px;
+    }
 }
