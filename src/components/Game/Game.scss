@@ -1,0 +1,28 @@
+.game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/game.jpg");
+    background-size: cover;
+}
+.game__title {
+    margin-bottom: 30px;
+}
+.game__btn {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+}
+.game__text {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}

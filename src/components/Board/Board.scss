@@ -1,0 +1,10 @@
+.board {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url("./img/board.jpg");
+    background-size: cover;
+}
