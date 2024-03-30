@@ -16,6 +16,8 @@ const Game = () => {
         setXIsNext(!xIsNext);
     };
 
+    const isBoardFull = board.every((square) => square !== null);
+
     const startNewGame = () => {
         setXIsNext(true);
         setBoard(Array(9).fill(null));
@@ -27,8 +29,12 @@ const Game = () => {
                 Сlear field
             </button>
             <Board squares={board} click={handleClick} />
-            {winner && (
+            {winner ? (
                 <p className="game__text">Congradulations, {winner} has won!</p>
+            ) : isBoardFull ? (
+                <p className="game__text">Draw</p>
+            ) : (
+                <p className="game__text">Next player: {xIsNext ? "X" : "O"}</p>
             )}
         </div>
     );
